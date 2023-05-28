@@ -1,0 +1,80 @@
+*{
+    border-color: purple;
+    border-style: dashed;
+}
+
+/*body style*/
+body{
+    background: black;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div{
+    box-sizing: border-box;
+}
+
+/*header style*/
+
+header h1{
+    margin: 0;
+    text-align: center;
+}
+
+/*post style*/
+div.container{
+    width: 500px;
+    margin: auto;
+    padding-top: 15px;
+}
+
+
+div.post{
+    background: white;
+}
+
+/*align photo name and date*/
+div.post .post-header div:first-child{
+    display: inline-block;
+    width: 80%;
+}
+
+/*align icons*/
+.icon-section{
+    display: inline-flex;
+   
+}
+
+
+
+.icons{
+    display: inline-flex;
+}
+
+div.post .post-header div:last-child{
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    
+}
+
+div.post h2{
+    padding: 10px 10px 10px 10px;
+    margin: 0;
+}
+
+div.post img{
+    width: 100%;
+}
+
+div.post p{
+    padding: 10px 10px 10px 10px;
+    margin: 0;
+}
+
+/*page footer style*/
+.page-footer{
+    background: black;
+    height: 30px;
+
+}
