@@ -40,16 +40,22 @@ div.post .post-header div:first-child{
 }
 
 /*align icons*/
-.icon-section{
+div.icon-section div:first-child{
     display: inline-flex;
-   
+    width:30%;
+    padding-left: 2%;
+}
+
+div.icon-section div:last-child{
+    display: inline-flex;
+    width:69%;
+    text-align: center;
+    padding-left: 62%;
 }
 
 
 
-.icons{
-    display: inline-flex;
-}
+
 
 div.post .post-header div:last-child{
     display: inline-block;
