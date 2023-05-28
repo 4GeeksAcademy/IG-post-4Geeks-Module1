@@ -36,7 +36,7 @@ div.post{
 /*align photo name and date*/
 div.post .post-header div:first-child{
     display: inline-block;
-    width: 80%;
+    width: 70%;
 }
 
 /*align icons*/
