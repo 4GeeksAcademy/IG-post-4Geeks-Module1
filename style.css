@@ -1,4 +1,5 @@
-*{
+
+/*{
     border-color: purple;
     border-style: dashed;
 }
@@ -19,6 +20,9 @@ div.container{
     width: 500px;
     margin: auto;
     padding-top: 15px;
+    display:flex;
+    flex-direction: row;
+    
 }
 
 
@@ -26,18 +30,51 @@ div.post{
     background: white;
 }
 
-/*align photo name and burger menu*/
+/*align photo, name, burger menu and social icons*/
 
-.post-header{
+div.post-header{
     margin: auto;
-    display:inline-flex;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
 }
 
-
-div.post h2{
-    padding: 3px 3px 3px 3px;
-    margin: 0;
+div.post-social{
+    margin: auto;
+    padding-left: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
 }
+
+div.menu{
+    padding-left: 63%;
+    padding-right: 2%;
+}
+div.user-icon{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+div.social-icon{
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+div.bookmark{
+    padding-left: 71%;
+    padding-right: 2%;
+}
+
+div
+span.user-info{
+    font-size:medium;
+}
+
 
 div.post img{
     width: 100%;
@@ -48,12 +85,23 @@ div.post p{
     margin: 0;
 }
 
+.text{
+    padding-bottom: 3%;
+}
+
 
 /*align icons*/
+
+div.icon-section{
+    display: inline-flex;
+    padding-left: 2%;
+}
+
 div.icon-section div:first-child{
     display: inline-flex;
-    width:30%;
-    padding-left: 2%;
+    text-align: center;
+    width:29%;
+    padding-left: 1%;
 }
 
 div.icon-section div:last-child{
@@ -62,6 +110,12 @@ div.icon-section div:last-child{
     text-align: center;
     padding-left: 62%;
 }
+
+
+
+
+
+
 
 
 
